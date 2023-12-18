@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="stylesheet" href="css/GoogleMaps.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Map</title>
+    <link rel="icon" type="image/x-icon" href="/IMG/CapybaraIcon2.0.png">
+        
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://unpkg.com/deck.gl@8.7.3/dist.min.js"></script>
+    <script src="https://unpkg.com/@deck.gl/google-maps@8.7.3/dist.min.js"></script>
+    <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script> -->
+</head>
+<body>
+  <ul class="menu">
+    <li><a href="index.html" >Login</a></li>
+    <li><a href="TempGraph.html" >Temperature</a></li>
+    <li><a href="GoogleMaps.html" class="active">Map</a></li>
+    <li><a href="AddAnimal.html" id="AddAnimalMenu">Add Animal</a></li>
+    <li><a href="aboutCollar.html">about</a></li>
+    
+</ul>
+    <!-- *************************** -->
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='stars3'></div>
+    <!--******************************-->
+
+<div>
+  <br>
+  <center>
+    <div id="IsLogged">
+  
+    </div>
+  </center>
+  
+      
+      
+  
+  <br><br><br><br>
+  
+  
+  
+  
+  
+
+    <center>
+      <div id="map"></div>
+    </center>
+
+
+</div>
+
+<div id="logout-container">
+  <button  id="LogoutButton" class="big-button">Logout</button>
+</div>
+
+    <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-database-compat.js"></script>
+    <!-- <script async  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgtKAdCX-rwdZ6JM-oOune0Lp9NeVzVsg&callback=initMap&libraries=drawing&v=beta" defer></script> -->
+    <script src = "JS/GoogleMaps.js"></script>
+    <!-- &callback=initMap --> 
+    
+    
+</body>
+</html>

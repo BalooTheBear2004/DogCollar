@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temp</title>
+  <link rel="icon" type="image/x-icon" href="/IMG/CapybaraIcon2.0.png">
+      
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+      <link rel="stylesheet" href="css/GoogleMaps.css">
+      <link rel="stylesheet" href="css/style.css">
+      
+      <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+      
+</head>
+<body>
+  <ul class="menu">
+    <li><a href="index.html" >Login</a></li>
+    <li><a href="TempGraph.html" class="active">Temperature</a></li>
+    <li><a href="GoogleMaps.html">Map</a></li>
+    <li><a href="AddAnimal.html" id="AddAnimalMenu">Add Animal</a></li>
+    <li><a href="aboutCollar.html">about</a></li>
+</ul>
+    <!-- *************************** -->
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='stars3'></div>
+    <!--******************************-->
+<br>
+<center>
+  <div id="IsLogged">
+
+  </div>
+</center>
+
+    
+<div id="TempGraphContainer">
+    <div id="chart" ></div>
+</div>
+
+<br>
+<br>
+
+<div id="container-of-container-temp">
+    <div id="temp-container">
+    </div>
+</div>
+
+<div id="logout-container">
+  <button  id="LogoutButton" class="big-button">Logout</button>
+</div>
+
+
+<script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-database-compat.js"></script>
+<!-- <script src="/JS/main.js"> </script> -->
+<script src = "JS/GoogleMaps.js"></script>
+<!-- <script src = "JS/GoogleMaps.js"></script> -->
+</body>
+</html>
